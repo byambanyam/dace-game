@@ -68,7 +68,7 @@ if(diceNumber !== 1) {
             scorce[Activplayer]=scorce[Activplayer] + roundscore
             document.getElementById("score-"+Activplayer).textContent = scorce[Activplayer];
             
-if(scorce[Activplayer] >= 10)
+if(scorce[Activplayer] >= 65)
 {
     isNewGame = false ; 
 document.getElementById("name-"+Activplayer).textContent="!!!winner!!!"
